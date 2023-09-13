@@ -1,5 +1,6 @@
 <?php
 include('partials/config.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -54,21 +55,26 @@ include('partials/config.php');
 					</div>
 					<div class="row block-9">
 						<div class="col-md-8 d-flex mx-auto">
-							<form action="#" class="bg-light p-5 contact-form">
+							<form action="partials/contact.php" class="bg-light p-5 contact-form php-email-form">
 								<div class="form-group">
-									<input type="text" class="form-control form-control-sm" placeholder="Your Name">
+									<input name="name" type="text" id="name" class="form-control form-control-sm" placeholder="Your Name">
 								</div>
 								<div class="form-group">
-									<input type="text" class="form-control form-control-sm" placeholder="Your Email">
+									<input name="email" type="email" id="email" class="form-control form-control-sm" placeholder="Your Email">
 								</div>
 								<div class="form-group">
-									<input type="text" class="form-control form-control-sm" placeholder="Subject">
+									<input name="subject" type="text" id="subject" class="form-control form-control-sm" placeholder="Subject">
 								</div>
 								<div class="form-group">
-									<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+									<textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+								</div>
+								<div class="my-3 bg-secondary text-white text-center">
+									<div class="loading p-2" style="display: none;">Loading...</div>
+									<div class="error-message p-2" style="display: none;"></div>
+									<div class="sent-message p-2" style="display: none;">Your message has been sent. Thank you!</div>
 								</div>
 								<div class="form-group">
-									<input type="submit" value="Send Message" class="btn btn-block btn-primary py-3 px-5">
+									<input type="submit" name="send" value="Send Message" class="btn btn-block btn-primary py-3 px-5">
 								</div>
 							</form>
 						
@@ -102,6 +108,7 @@ include('partials/config.php');
   <script src="assets/js/scrollax.min.js"></script>
   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="assets/js/google-map.js"></script> -->
+  <script src="assets/js/php-email-form/validate.js"></script>
   <script src="assets/js/main.js"></script>
     
 	</body>

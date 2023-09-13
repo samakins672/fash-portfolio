@@ -3,7 +3,7 @@ $url = $_SERVER['PHP_SELF'];
 $url = str_replace('/fash-portfolio/', '', $url);
 ?>
 
-<h1 id="colorlib-logo"><a href="index.php"><span class="img" style="background-image: url(assets/images/author.jpg); background-position: top center;"></span>Festus Fasina</a></h1>
+<h1 id="colorlib-logo"><a href="index.php"><span class="img" style="background-image: url(assets/images/logo.jpg); background-position: top center;"></span>Festus Fasina</a></h1>
 <nav id="colorlib-main-menu" role="navigation">
   <ul>
     <li <?php if ($url == 'index.php'): ?> class="colorlib-active" <?php endif; ?>><a href="index.php">Home</a></li>

@@ -34,10 +34,6 @@ if (isset($_GET['event_uploaded'])) {
 	$event_link = $_GET['event_uploaded'];
 }
 
-// if ($_SESSION['role'] != 'admin') {
-// 	$sidebar = 'd-none';
-// }
-
 $client_query = mysqli_query($conn, "SELECT * FROM client WHERE status = 'active' ORDER BY name");
 $collection_query = mysqli_query($conn, "SELECT * FROM collection WHERE status = 'active' ORDER BY name");
 ?>
@@ -57,6 +53,9 @@ $collection_query = mysqli_query($conn, "SELECT * FROM collection WHERE status =
 
 	<link rel="stylesheet" href="../assets/css/open-iconic-bootstrap.min.css">
 	<link rel="stylesheet" href="../assets/css/animate.css">
+
+	<!-- Favicon -->
+	<link href="../favicon.ico" rel="icon">
 
 	<link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
 	<link rel="stylesheet" href="../assets/css/owl.theme.default.min.css">

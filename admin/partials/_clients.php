@@ -10,7 +10,7 @@ $event_query = mysqli_query($conn, "SELECT * FROM event ORDER BY created_at DESC
 
   <div id="upload" class="row block-9">
     <div class="col-12 d-flex table-responsive bg-light">
-      <table class="table table-striped project-orders-table">
+      <table id="dataTable" class="table table-striped project-orders-table">
         <thead>
           <tr>
             <th>Date Uploaded</th>

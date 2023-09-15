@@ -4,15 +4,20 @@
 <meta content="A professional photographer based in Lagos. I specialize in capturing the beauty of everyday moments, from weddings and engagements to family portraits and corporate events." name="description">
 
 <!-- Add Open Graph Protocol (OGP) meta tags for social media sharing -->
-<meta property="og:title" content="Fash Shot It">
+<meta property="og:site_name" content="Fash Shot It">
+<meta property="og:title" content="Fash Shot It - Web Page">
 <meta property="og:description" content="A professional photographer based in Lagos. I specialize in capturing the beauty of everyday moments, from weddings and engagements to family portraits and corporate events.">
-<meta property="og:image" content="https://portfolio.sannex.ng/fashshotit/assets/images/logo.jpg">
+<meta property="og:image" itemprop="image" content="https://portfolio.sannex.ng/fashshotit/assets/images/image.jpg">
 <meta property="og:url" content="https://portfolio.sannex.ng/fashshotit/">
+<meta property="og:type" content="website" />
 <!-- <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@yourtwitterhandle"> -->
 <!-- Add more OGP meta tags as needed -->
 
 <meta content="Festus Fashina" name="author">
+
+<!-- Favicon -->
+<link href="favicon.ico" rel="icon">
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">

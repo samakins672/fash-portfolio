@@ -61,6 +61,24 @@ $collection_query = mysqli_query($conn, "SELECT * FROM collection WHERE status =
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <meta content="A professional photographer based in Lagos. I specialize in capturing the beauty of everyday moments, from weddings and engagements to family portraits and corporate events." name="description">
+
+  <!-- Add Open Graph Protocol (OGP) meta tags for social media sharing -->
+  <meta property="og:site_name" content="Fash Shot It">
+  <meta property="og:title" content="Fash Shot It - Web Page">
+  <meta property="og:description" content="A professional photographer based in Lagos. I specialize in capturing the beauty of everyday moments, from weddings and engagements to family portraits and corporate events.">
+  <meta property="og:image" itemprop="image" content="https://portfolio.sannex.ng/fashshotit/assets/images/image.jpg">
+  <meta property="og:url" content="https://portfolio.sannex.ng/fashshotit/">
+  <meta property="og:type" content="website" />
+  <!-- <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@yourtwitterhandle"> -->
+  <!-- Add more OGP meta tags as needed -->
+
+  <meta content="Festus Fashina" name="author">
+
+  <!-- Favicon -->
+  <link href="favicon.ico" rel="icon">
+
   <link
     href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap"
     rel="stylesheet">

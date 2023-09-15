@@ -29,7 +29,7 @@ try {
   //Recipients
   $mail->AddReplyTo($from, $name);
   $mail->setFrom(SMTP_USERNAME, $name);
-  $mail->addAddress('akinyemisamuel170@gmail.com', 'Festus Fashina'); //Add a recipient
+  $mail->addAddress('fashinafestus@gmail.com', 'Festus Fashina'); //Add a recipient
 
   //Content
   $mail->isHTML(true); //Set email format to HTML

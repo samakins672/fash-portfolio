@@ -1,6 +1,8 @@
 <?php
 session_start();
-include('../php/config.php');
+require '../../../config/db.php';
+
+$conn = mysqli_connect("localhost", DB_USERNAME, DB_PASSWORD, "sannexng_fashshotit");
 
 $event_query = mysqli_query($conn, "SELECT * FROM event ORDER BY created_at DESC");
 ?>

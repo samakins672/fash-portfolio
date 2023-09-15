@@ -102,6 +102,16 @@ $collection_query = mysqli_query($conn, "SELECT * FROM collection WHERE status =
 
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4H17TDTJ07"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4H17TDTJ07');
+  </script>
+
 </head>
 
 <body>

@@ -47,7 +47,7 @@ include('partials/config.php');
 							<div class="info bg-light p-4 pb-2">
 								<p><span class="icon icon-whatsapp"></span> <a href="https://wa.me/+2347061874236">+234 706 187 4236</a></p>
 								<p><span class="icon icon-instagram"></span> <a href="https://instagram.com/festusfasina?igshid=ZGUzMzM3NWJiOQ">Fash Shot It</a></p>
-								<p><span class="icon icon-linkedin-square"></span> <a href="https://www.linkedin.com/in/festus-fasina-8a984121a">Festus Fashina</a></p>
+								<p><span class="icon icon-linkedin-square"></span> <a href="https://www.linkedin.com/in/festus-fasina-8a984121a">Festus Fasina</a></p>
 								<p><span class="icon icon-youtube"></span> <a href="https://youtube.com/@FashShotIt">Fash Shot It</a></p>
 
 							</div>

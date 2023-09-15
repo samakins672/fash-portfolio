@@ -1,6 +1,8 @@
 <?php
 session_start();
-include('../php/config.php');
+require '../../../config/db.php';
+
+$conn = mysqli_connect("localhost", DB_USERNAME, DB_PASSWORD, "sannexng_fashshotit");
 
 $landing_pictures_query = mysqli_query($conn, "SELECT * FROM landing_pictures ORDER BY id");
 ?>

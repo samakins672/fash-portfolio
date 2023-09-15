@@ -95,11 +95,14 @@ for ($i = 0; $i < $total; $i++) {
 if ($item > 0) {
   if (isset($_POST['upload-client'])) {
     header("Location: ../index.php?event_uploaded=$event_link");
+    exit();
   } else {
     header("Location: ../index.php?upload_successful=$item");
+    exit();
   }
 } else {
   header('Location: ../index.php?upload_failed');
+  exit();
 }
 
 ?>

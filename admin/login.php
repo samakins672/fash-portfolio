@@ -33,6 +33,7 @@ if (isset($_POST['login'])) {
     $user = mysqli_fetch_array($user_query);
     if ($user['status'] != 'active') {
       header('Location: login.php?blocked');
+      exit();
     } else {
       session_start();
       
@@ -41,9 +42,11 @@ if (isset($_POST['login'])) {
       $_SESSION['fash_admin_role'] = $user['role'];
 
       header('Location: index.php?login');
+      exit();
     }
   } else {
     header('Location: login.php?error');
+    exit();
   }
 }
 

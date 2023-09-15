@@ -5,6 +5,7 @@ include('php/config.php');
 
 if (!isset($_SESSION['fash_admin_id'])) {
 	header('Location: login.php');
+	exit();
 }
 
 $id = $_SESSION['fash_admin_id'];

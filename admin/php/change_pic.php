@@ -1,6 +1,9 @@
 <?php
-include('config.php');
 session_start();
+require '../../../config/db.php';
+
+$conn = mysqli_connect("localhost", DB_USERNAME, DB_PASSWORD, "sannexng_fashshotit");
+
 $id = $_SESSION['fash_admin_id'];
 
 if (isset($_POST['change_pic'])) {

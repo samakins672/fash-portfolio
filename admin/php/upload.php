@@ -1,6 +1,8 @@
 <?php
 session_start();
-include('config.php');
+require '../../../config/db.php';
+
+$conn = mysqli_connect("localhost", DB_USERNAME, DB_PASSWORD, "sannexng_fashshotit");
 
 $created_by = $_SESSION['fash_admin_id'];
 $files = array_filter($_FILES['pictures']['name']);

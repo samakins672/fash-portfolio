@@ -14,7 +14,7 @@
 <meta name="twitter:site" content="@yourtwitterhandle"> -->
 <!-- Add more OGP meta tags as needed -->
 
-<meta content="Festus Fashina" name="author">
+<meta content="Festus Fasina" name="author">
 
 <!-- Favicon -->
 <link href="favicon.ico" rel="icon">

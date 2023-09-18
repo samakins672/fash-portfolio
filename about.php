@@ -56,10 +56,10 @@ include('partials/config.php');
 							</p>
 							<h3 class="signature h1">Fash Shot It</h3>
 							<ul class="ftco-social mt-3">
-								<li class="ftco-animate"><a href="https://wa.me/+2347061874236"><span class="icon-whatsapp"></span></a></li>
-								<li class="ftco-animate"><a href="https://instagram.com/festusfasina?igshid=ZGUzMzM3NWJiOQ"><span class="icon-instagram"></span></a></li>
-								<li class="ftco-animate"><a href="https://www.linkedin.com/in/festus-fasina-8a984121a"><span class="icon-linkedin-square"></span></a></li>
-								<li class="ftco-animate"><a href="https://youtube.com/@FashShotIt"><span class="icon-youtube"></span></a></li>
+								<li class="ftco-animate"><a href="https://wa.me/+2347061874236" target="_blank"><span class="icon-whatsapp"></span></a></li>
+								<li class="ftco-animate"><a href="https://instagram.com/festusfasina?igshid=ZGUzMzM3NWJiOQ" target="_blank"><span class="icon-instagram"></span></a></li>
+								<li class="ftco-animate"><a href="https://www.linkedin.com/in/festus-fasina-8a984121a" target="_blank"><span class="icon-linkedin-square"></span></a></li>
+								<li class="ftco-animate"><a href="https://youtube.com/@FashShotIt" target="_blank"><span class="icon-youtube"></span></a></li>
 							</ul>
 						</div>
 					</div>

@@ -37,7 +37,7 @@ $event_query = mysqli_query($conn, "SELECT * FROM event ORDER BY created_at DESC
           <ul>
             <li><span class="icon icon-map-marker"></span><span class="text">18b, Oladipo Bateye, GRA, Ikeja, Lagos, Nigeria</span></li>
             <li><a href="tel://+2347061874236"><span class="icon icon-phone"></span><span class="text">+234 706 187 4236</span></a></li>
-            <li><a href="mailto:fashinafestus@gmail.com"><span class="icon icon-envelope"></span><span class="text">fashinafestus@gmail.com</span></a></li>
+            <li><a href="mailto:fasinafestus@gmail.com" target="_blank"><span class="icon icon-envelope"></span><span class="text">fasinafestus@gmail.com</span></a></li>
           </ul>
         </div>
       </div>

@@ -39,16 +39,16 @@ include('partials/config.php');
 							<div class="info bg-light p-4 pb-2">
 								<p><span>Address:</span> 18b, Oladipo Bateye, GRA, Ikeja, Lagos, Nigeria</p>
 								<p><span>Phone:</span> <a href="tel://+2347061874236">+234 706 187 4236</a></p>
-								<p><span>Email:</span> <a href="mailto:fashinafestus@gmail.com">fashinafestus@gmail.com</a></p>
+								<p><span>Email:</span> <a href="mailto:fasinafestus@gmail.com">fasinafestus@gmail.com</a></p>
 								<p><span>Website</span> <a href="https://portfolio.sannex.ng/fashshotit/">portfolio.sannex.ng/fashshotit</a></p>
 							</div>
 						</div>
 						<div class="col-md-6 d-flex">
 							<div class="info bg-light p-4 pb-2">
-								<p><span class="icon icon-whatsapp"></span> <a href="https://wa.me/+2347061874236">+234 706 187 4236</a></p>
-								<p><span class="icon icon-instagram"></span> <a href="https://instagram.com/festusfasina?igshid=ZGUzMzM3NWJiOQ">Fash Shot It</a></p>
-								<p><span class="icon icon-linkedin-square"></span> <a href="https://www.linkedin.com/in/festus-fasina-8a984121a">Festus Fasina</a></p>
-								<p><span class="icon icon-youtube"></span> <a href="https://youtube.com/@FashShotIt">Fash Shot It</a></p>
+								<p><span class="icon icon-whatsapp"></span> <a href="https://wa.me/+2347061874236" target="_blank">+234 706 187 4236</a></p>
+								<p><span class="icon icon-instagram"></span> <a href="https://instagram.com/festusfasina?igshid=ZGUzMzM3NWJiOQ" target="_blank">Fash Shot It</a></p>
+								<p><span class="icon icon-linkedin-square"></span> <a href="https://www.linkedin.com/in/festus-fasina-8a984121a" target="_blank">Festus Fasina</a></p>
+								<p><span class="icon icon-youtube"></span> <a href="https://youtube.com/@FashShotIt" target="_blank">Fash Shot It</a></p>
 
 							</div>
 						</div>

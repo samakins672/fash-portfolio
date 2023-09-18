@@ -61,12 +61,12 @@ $collection_query = mysqli_query($conn, "SELECT * FROM collection WHERE status =
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <meta content="A professional photographer based in Lagos. I specialize in capturing the beauty of everyday moments, from weddings and engagements to family portraits and corporate events." name="description">
+  <meta content="Capturing the beauty of everyday moments, from weddings and engagements to family portraits and corporate events." name="description">
 
   <!-- Add Open Graph Protocol (OGP) meta tags for social media sharing -->
   <meta property="og:site_name" content="Fash Shot It">
-  <meta property="og:title" content="Fash Shot It - Web Page">
-  <meta property="og:description" content="A professional photographer based in Lagos. I specialize in capturing the beauty of everyday moments, from weddings and engagements to family portraits and corporate events.">
+  <meta property="og:title" content="<?php echo $title ?> - FashShotIt">
+  <meta property="og:description" content="Capturing the beauty of everyday moments, from weddings and engagements to family portraits and corporate events.">
   <meta property="og:image" itemprop="image" content="https://portfolio.sannex.ng/fashshotit/assets/images/image.jpg">
   <meta property="og:url" content="https://portfolio.sannex.ng/fashshotit/">
   <meta property="og:type" content="website" />
@@ -74,7 +74,7 @@ $collection_query = mysqli_query($conn, "SELECT * FROM collection WHERE status =
   <meta name="twitter:site" content="@yourtwitterhandle"> -->
   <!-- Add more OGP meta tags as needed -->
 
-  <meta content="Festus Fashina" name="author">
+  <meta content="Festus Fasina" name="author">
 
   <!-- Favicon -->
   <link href="favicon.ico" rel="icon">
@@ -161,10 +161,10 @@ $collection_query = mysqli_query($conn, "SELECT * FROM collection WHERE status =
             <div class="d-none d-xl-inline-block">
               <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
                 <li>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                  <a href="https://instagram.com/festusfasina?igshid=ZGUzMzM3NWJiOQ" target="_blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
                 </li>
                 <li>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>
+                  <a href="https://youtube.com/@FashShotIt" target="_blank" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>
                 </li>
               </ul>
             </div>

@@ -10,7 +10,7 @@ $num_query = 1;
 $drive_button = 'd-none';
 $drive_link = '';
 
-$title = "Portrait";
+$title = "My Collections";
 $gallery_query = mysqli_query($conn, "SELECT * FROM collection_pictures ORDER BY created_at DESC");
 
 $filePath = "../assets/images/collections/";

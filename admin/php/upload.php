@@ -96,32 +96,32 @@ for ($i = 0; $i < $total; $i++) {
     //Setup our new file path
     $filename = uniqid() . '_'. time() .'.' . $ext;
     $newFilePath = $filePath.$filename;
-    echo $newFilePath;
+    // echo $newFilePath;
 
     $query = $query1. "'$filename')";
 
-    // Upload the file into the temp dir
-    // if (move_uploaded_file($tmpFilePath, $newFilePath)) {
+    Upload the file into the temp dir
+    if (move_uploaded_file($tmpFilePath, $newFilePath)) {
 
-    //   //Handle other code here
-    //   mysqli_query($conn, $query);
+      //Handle other code here
+      mysqli_query($conn, $query);
 
-    //   $item += 1;
-    // }
+      $item += 1;
+    }
   }
 }
 
-// if ($item > 0) {
-//   if (isset($_POST['upload-client'])) {
-//     header("Location: ../index.php?event_uploaded=$event_link");
-//     exit();
-//   } else {
-//     header("Location: ../index.php?upload_successful=$item");
-//     exit();
-//   }
-// } else {
-//   header('Location: ../index.php?upload_failed');
-//   exit();
-// }
+if ($item > 0) {
+  if (isset($_POST['upload-client'])) {
+    header("Location: ../index.php?event_uploaded=$event_link");
+    exit();
+  } else {
+    header("Location: ../index.php?upload_successful=$item");
+    exit();
+  }
+} else {
+  header('Location: ../index.php?upload_failed');
+  exit();
+}
 
 ?>

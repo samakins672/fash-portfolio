@@ -1,8 +1,8 @@
 <?php
 // Set the maximum upload file size
-ini_set('upload_max_filesize', '20M');
+ini_set('upload_max_filesize', '200M');
 // Set the maximum post data size (including uploaded files)
-ini_set('post_max_size', '20M');
+ini_set('post_max_size', '200M');
 
 session_start();
 require '../../../config/db.php';

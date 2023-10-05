@@ -1,11 +1,4 @@
 <?php
-ini_set('max_execution_time', 500);
-ini_set('max_input_time', 500);
-// Set the maximum upload file size
-ini_set('upload_max_filesize', '100M');
-// Set the maximum post data size (including uploaded files)
-ini_set('post_max_size', '100M');
-
 session_start();
 require '../../../config/db.php';
 
